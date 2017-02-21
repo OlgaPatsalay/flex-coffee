@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
+@font-face {
+    font-family: 'miso';
+    src: url('../fonts/miso-webfont.woff2') format('woff2'),
+    url('../fonts/miso-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'miso';
+    src: url('../fonts/miso-bold-webfont.woff2') format('woff2'),
+    url('../fonts/miso-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+main, div {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+
+main {
+    margin: auto;
+    text-align: center;
+    background-color: #fdde7e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    min-height: 600px;
+    flex-wrap: wrap;
+}
+.block-card {
+    width: 30%;
+    max-width: 361px;
+    min-width: 210px;
+    height: 441px;
+    background-color: #fff;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+.gold-cup-card {
+    height: 500px;
+}
+.price {
+    font: 700 70px miso, sans-serif;
+    color:  #02995b;
+    line-height: 24px;
+}
+.bronze-gold-silver {
+    font: 400 56px Miso, sans-serif;
+    color:  #333333;
+    line-height: 24px;
+}
+.dscr {
+    font: 300 20px Lato, sans-serif;
+    color: #333333;
+    line-height: 26px;
+}
+
